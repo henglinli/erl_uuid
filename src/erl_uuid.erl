@@ -1,7 +1,6 @@
 -module(erl_uuid).
 
--export([new/0,
-         myfunction/1]).
+-export([v4/0]).
 
 -on_load(init/0).
 
@@ -24,18 +23,15 @@ init() ->
               end,
     erlang:load_nif(filename:join(PrivDir, ?MODULE), 0).
 
-new() ->
+v4() ->
     ?nif_stub.
-
-myfunction(_Ref) ->
-    ?nif_stub.
-
 %% ===================================================================
 %% EUnit tests
 %% ===================================================================
 -ifdef(TEST).
 
 basic_test() ->
+    ?assertEqual(16, erlang:size(v4())),
     {ok, Ref} = new(),
     ?assertEqual(ok, myfunction(Ref)).
 

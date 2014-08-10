@@ -4,3 +4,42 @@
 [submodule "c_src/boost/uuid"]
 	path = c_src/boost/uuid
 	url = https://github.com/boostorg/uuid.git
+[submodule "c_src/boost/smart_ptr"]
+	path = c_src/boost/smart_ptr
+	url = https://github.com/boostorg/smart_ptr.git
+[submodule "c_src/boost/type_traits"]
+	path = c_src/boost/type_traits
+	url = https://github.com/boostorg/type_traits.git
+[submodule "c_src/boost/mpl"]
+	path = c_src/boost/mpl
+	url = https://github.com/boostorg/mpl.git
+[submodule "c_src/boost/preprocessor"]
+	path = c_src/boost/preprocessor
+	url = https://github.com/boostorg/preprocessor.git
+[submodule "c_src/boost/static_assert"]
+	path = c_src/boost/static_assert
+	url = https://github.com/boostorg/static_assert.git
+[submodule "c_src/boost/throw_exception"]
+	path = c_src/boost/throw_exception
+	url = https://github.com/boostorg/throw_exception.git
+[submodule "c_src/boost/assert"]
+	path = c_src/boost/assert
+	url = https://github.com/boostorg/assert.git
+[submodule "c_src/boost/iterator"]
+	path = c_src/boost/iterator
+	url = https://github.com/boostorg/iterator.git
+[submodule "c_src/boost/core"]
+	path = c_src/boost/core
+	url = https://github.com/boostorg/core.git
+[submodule "c_src/boost/detail"]
+	path = c_src/boost/detail
+	url = https://github.com/boostorg/detail.git
+[submodule "c_src/boost/random"]
+	path = c_src/boost/random
+	url = https://github.com/boostorg/random.git
+[submodule "c_src/boost/integer"]
+	path = c_src/boost/integer
+	url = https://github.com/boostorg/integer.git
+[submodule "c_src/boost/predef"]
+	path = c_src/boost/predef
+	url = https://github.com/boostorg/predef.git
