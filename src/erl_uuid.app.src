@@ -1,0 +1,14 @@
+{application, erl_uuid,
+ [
+  {description, "boost::uuid wrapper for erlang"},
+  {vsn, git},
+  {modules, [
+             erl_uuid
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.

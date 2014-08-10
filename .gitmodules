@@ -1,0 +1,6 @@
+[submodule "c_src/boost/config"]
+	path = c_src/boost/config
+	url = https://github.com/boostorg/config.git
+[submodule "c_src/boost/uuid"]
+	path = c_src/boost/uuid
+	url = https://github.com/boostorg/uuid.git
