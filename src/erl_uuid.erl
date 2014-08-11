@@ -1,6 +1,6 @@
 -module(erl_uuid).
 
--export([v4/0]).
+-export([init/0, v4/0]).
 
 -on_load(init/0).
 
